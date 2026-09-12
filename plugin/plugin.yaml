@@ -1,0 +1,8 @@
+name: hello
+version: 0.1.0
+description: Template hello-world plugin for AnotherMe
+author: Your Name
+entrypoint: plugin
+capabilities:
+  - routes
+dependencies: []
