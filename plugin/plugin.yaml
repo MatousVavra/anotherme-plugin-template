@@ -6,3 +6,7 @@ entrypoint: plugin
 capabilities:
   - routes
 dependencies: []
+# Tables this plugin owns (requires the `storage` capability). Writes are
+# limited to these; reads stay open to all tables. Omit for legacy
+# unrestricted access, or use [] for "no own tables" (key-value storage only).
+tables: []
